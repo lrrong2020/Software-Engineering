@@ -9,5 +9,6 @@
 - (The size should have a specific limitation. The times also and I think the times of download also need limitations?)
 - 
 - Stored images should be accessible by all the users who has been authenticated by existing filesystem.
-- 
+- When selecting a file to be encrypted, the system will determine whether the file to be encrypted is an image format.
+- Users must login to the system. Users who are not logged in can view files in the system, but cannot upload or download files.
 
