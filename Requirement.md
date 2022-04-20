@@ -4,13 +4,20 @@ This is a web-based image communication system for MPU professors and IET superv
 
 - Users must be authenticated before sending or receiving images.
 
-- The Sender and the receiver shares a common key. They can upload and download images with the key entered. The system can automatically encrypt and decrypt the images with the key.  
+- The Sender and the receiver shares a common key(by default, r and s both know). They can upload and download images with the key entered. The system can automatically encrypt and decrypt the images with the key.  
 ====> If the receiver input the wrong key, he(she) will download garbled file(乱码文件）.
 
 - The system only allows transferring files in image formats
 
-- The size of image should be limited when uploading. Times of uploads and downloads per day should also be limited for system safety.
+- The size of image should be limited when uploading(max 10MB). Times of uploads and downloads per day should also be limited for system safety.(max 100 times)
 
-- An image transmitted should have a period of validity for security.
+
+
+
+
+
+
+
+del //- An image transmitted should have a period of validity for security.
 
   
