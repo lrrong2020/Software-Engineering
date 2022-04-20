@@ -4,7 +4,8 @@ This is a web-based image communication system for MPU professors and IET superv
 
 - Users must be authenticated before sending or receiving images.
 
-- The Sender and the receiver shares a common key. They can upload and download images with the key entered. The system can automatically encrypt and decrypt the images with the key.
+- The Sender and the receiver shares a common key. They can upload and download images with the key entered. The system can automatically encrypt and decrypt the images with the key.  
+====> If the receiver input the wrong key, he(she) will download garbled file(乱码文件）.
 
 - The system only allows transferring files in image formats
 
